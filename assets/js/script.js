@@ -10,10 +10,10 @@ function openSocial(type) {
       url = 'https://discord.gg/vYevaJVw32';
       break;
     case 'github':
-      url = 'https://www.youtube.com/channel/UCZ8sbiiPnODD3Dlj7FVwwSQ';
+      url = 'https://www.youtube.com/channel/UCUhEwQGurrK20Y6g3l66FfA';
       break;
     case 'twitter':
-      url = 'https://twitter.com/NotNeztr';
+      url = 'https://twitter.com/ilylol5';
       break;
   }
 
@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'neztr.cool | home';
+  document.title = 'ilylol | home';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
