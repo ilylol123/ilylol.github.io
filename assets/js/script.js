@@ -71,7 +71,8 @@ function switchScreen() {
     });
   });
 
-  ['background', 'rain'].forEach(function (audioName) {
+  //['background', 'rain'].forEach(function (audioName) {
+    ['background'].forEach(function (audioName) {
     let fullPath = `assets/audio/${audioName}.mp3`;
 
     let audioElement = document.createElement('audio');
